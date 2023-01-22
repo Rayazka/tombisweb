@@ -1,0 +1,119 @@
+header.services{
+   height: 36.8rem !important;
+   background-size: cover;
+}
+
+header.services .headline .headline-text{
+	color: white;
+   position: relative;
+}
+header.services .headline .headline-text h3{
+	font-size: 3rem;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+.linkaddress{
+   margin: 7px 0;
+    padding-left: 95px;
+    position: relative;
+}
+.linkaddress:before{
+   position: absolute;
+    content: "";
+    width: 75px;
+    height: 1px;
+    background: #ff5f13;
+   bottom: 45%;
+   left: 0;
+    transform: translateY(-50%);
+}
+.linkaddress ol{
+   list-style: none;
+   display: flex;
+    flex-wrap: wrap;
+    padding: .75rem 1rem .75rem 0;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+.linkaddress ol li a{
+   color: #ff5f13;
+   font-size: 1rem;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+   display: inline-block;
+   padding-right: .5rem;
+   color: #ff5f13;
+   content: "/";
+}
+
+main.services .offers h3{
+   color: #00235b;
+   font-size: 1.8rem;
+   padding-bottom: 10px;
+   border-bottom: 2px solid #00235b;
+   border-radius: 1px;
+}
+
+main.services .offers .services-offer{
+   position: relative;
+	background-color: #efefef;
+   height: 4em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   vertical-align: middle;
+   transform:skewX(-5deg) perspective(1px) translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+   transition-property: color;
+   transition-duration: 0.3s;
+}
+
+main.services .offers .services-offer:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: #00235b;
+   transform: scaleX(0);
+   transform-origin: 0 50%;
+   transition-property: transform;
+   transition-duration: 0.3s;
+   transition-timing-function: ease-out;
+}
+main.services .offers .services-offer:hover:before {
+   transform: scaleX(1);
+}
+main.services .offers .services-offer:hover a{
+   color: #fff;
+   transition: all .3s ease-in-out;
+   font-weight: 600;
+}
+
+main.services .offers .services-offer a{
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #333;
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+main.services .offers p{
+   color: #333;
+   padding-top: .5em;
+   font-size: 1.1em;
+}
+
+@media(min-width:768px) and (max-width: 1023px) {
+
+}
+
+@media(max-width:767px){
+	
+}

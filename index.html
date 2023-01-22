@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font Awesome (Icon) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- SLICK SLIDER  -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+
+  <!-- AOS (ANIMATION) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Icon Web -->
+  <link rel="shortcut icon" type="image/png" href="asset/logo.jpg" />
+
+  <title>Tombis Bintang Sejahtera</title>
+</head>
+
+<body>
+
+  <!-- Back to top button -->
+  <a href="" id="backToTopBtn">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <header>
+    <!-- Banner -->
+    <div class="header-banner py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-banner">
+            <ul class="header-info" data-aos="fade-in">
+              <li>
+                <a href="http://wa.me/6281219469922" target="blank"><span>Have any question?</span> +62 812-1946-9922</a>
+              </li>
+              <li>
+                <a href="mailto:tombispratama@gmail.com" target="blank">
+                  tombispratama@gmail.com</a>
+              </li>
+            </ul>
+
+            <ul class="header-social">
+              <li>
+                <a href="#" target="blank"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#" target="blank"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#" target="blank"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="mailto:tombispratama@gmail.com" target="blank"><i class="fa-regular fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Banner -->
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <img src="../asset/logo.png" alt="" class="brand-logo" />
+        <a class="navbar-brand ms-lg-0 ms-md-0" href="#">Tombis Bintang Sejahtera</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="navbar-brand-logo" href="#"><img src="../asset/logo.png" alt="" class="brand-logo" width="64" /></a>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="html/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="html/services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link last-link" href="html/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </div>
+
+    <!-- Navbar -->
+    <div class="container-fluid image-banner">
+      <!-- End Navbar -->
+
+      <!-- Headline -->
+
+      <div class="container headline">
+        <div class="row">
+          <div class="col-12 ms-lg-3 ms-md-2 headline-text" data-aos="fade-up">
+            <span>caption Lorem, ipsum dolor.</span>
+            <h1 class="fw-bold mt-4 ">multimedia</h1>
+            <div class="animation-text">
+              <h2>Loremipsumdol</h2>
+              <h2>Loremipsumdol</h2>
+            </div>
+            <div class="button-headline">
+              <span><a href="html/contact.html">Contact Now</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Headline -->
+  </header>
+
+  <main>
+    <!-- Services -->
+    <div class="container-fluid services py-5">
+      <div class="container services-header">
+        <div class="row title">
+          <div class="col text-center">
+            <div class="section-title">
+              <div class="front-text">
+                <h3 class="tagline">our services</h3>
+              </div>
+              <span class="back-text">services</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly row-service-card">
+
+          <div class="col-card mt-md-5 col-md-5 col-12">
+            <div id="design" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="html/services.html">
+                    <img src="asset/Desain/1.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Animation 2D & 3D</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/Desain/2.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Design Grafis</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/Desain/3.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Design Grafis</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#design" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#design" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="row service-desc py-3">
+              <div class="col">
+                <a href="html/services.html" class="fs-5 ms-4">Design</a>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="html/services.html" class="button">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-card mt-5 col-md-5 col-12">
+            <div id="editing" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="html/services.html">
+                    <img src="asset/Editing/2.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Photo & Video</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/Editing/3.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Photo & Video</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/Editing/4.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Photo & Video</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#editing" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#editing" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="row service-desc py-3">
+              <div class="col">
+                <a href="html/services.html" class="fs-5 ms-4">Event Organizer</a>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="html/services.html" class="button">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-card mt-md-5 mt-5 col-md-5 col-12">
+            <div id="eventorganizer" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="html/services.html">
+                    <img src="asset/EventOrganizer/1.jpg" class="d-block w-100 h-100" alt="...">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/EventOrganizer/2.jpg" class="d-block w-100 h-100" alt="...">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/SocialMedia/1.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Content Creator</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/SocialMedia/2.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Social Media Specialist</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#eventorganizer" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#eventorganizer" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="row service-desc py-3">
+              <div class="col">
+                <a href="html/services.html" class="fs-5 ms-4">Event Organizer</a>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="html/services.html" class="button">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-card mt-md-5 mt-5 col-md-5 col-12">
+            <div id="fotovideo" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <a href="html/services.html">
+                    <img src="asset/Fotografi/1.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Photography</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/Fotografi/2.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Videography</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/Fotografi/drone.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="caption d-none d-md-block">
+                      <h5>Drone</h5>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#fotovideo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#fotovideo" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="row service-desc py-3">
+              <div class="col">
+                <a href="html/services.html" class="fs-5 ms-4">Event Organizer</a>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="html/services.html" class="button">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-card mt-md-5 mt-5 col-md-5 col-12">
+            <div id="gms" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="html/services.html">
+                    <img src="asset/GMS/1.jpg" class="d-block w-100 h-100" alt="...">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/GMS/2.jpg" class="d-block w-100 h-100" alt="...">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/GMS/4.jpg" class="d-block w-100 h-100" alt="...">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/GMS/5.jpg" class="d-block w-100 h-100" alt="...">
+                  </a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#gms" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#gms" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="row service-desc py-3">
+              <div class="col">
+                <a href="html/services.html" class="fs-5 ms-4">Event Organizer</a>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="html/services.html" class="button">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-card mt-md-5 mt-5 col-md-5 col-12">
+            <div id="learning" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="html/services.html">
+                    <img src="asset/Learning/1.jpg" class="d-block w-100 h-100" alt="...">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/Learning/2.jpg" class="d-block w-100 h-100" alt="...">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="html/services.html">
+                    <img src="asset/Learning/3.jpg" class="d-block w-100 h-100" alt="...">
+                  </a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#white-pepper" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#white-pepper" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="row service-desc py-3">
+              <div class="col">
+                <a href="html/services.html" class="fs-5 ms-4">Event Organizer</a>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="html/services.html" class="button">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- End Services -->
+
+    <!-- About -->
+    <div class="container about-us py-5">
+      <div class="row title">
+        <div class="col text-center">
+          <div class="section-title">
+            <div class="front-text">
+              <h3 class="tagline">Who We Are</h3>
+            </div>
+            <span class="back-text">about us</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 mt-md-5 justify-content-center" data-aos="fade-up">
+        <div class="col-lg-10 col-sm-12 fs-5 text-center text-about-left">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde id hic sunt quasi nobis natus eos ea,
+            laboriosam, facere dolorem, eum facilis minus cumque! Eius, voluptatem molestias. Cumque provident quia
+            iusto perspiciatis sit id, pariatur quisquam corrupti alias quos tempora, doloremque ea exercitationem quam
+            animi reprehenderit dolorum unde accusantium tenetur.</p>
+        </div>
+        <div class="row readmore">
+          <div class="col text-center">
+            <a href="html/about.html" class="btn-about-us">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- End About -->
+
+    <!-- Why Us -->
+    <div class="container-feature-card py-5">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row feature-card justify-content-center text-center" data-aos="fade-up">
+            <div class="col-lg-2 me-lg-4 col-md-6 col-sm-12">
+              <div class="card h-100">
+                <div class="card-body">
+                  <i class="fa-solid py-3 fa-laptop"></i>
+                  <p class="card-title mt-1">Adaptive</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 me-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <i class="fas py-3 fa-clock"></i>
+                  <p class="card-title  mt-1">Discipline</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 me-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-3 mt-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <i class="fa-solid py-3 fa-rocket"></i>
+                  <p class="card-title  mt-1">Acceleration</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12 mt-lg-0 mt-md-3 mt-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <i class="fa-solid py-3 fa-user"></i>
+                  <p class="card-title  mt-1">Professional</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Why Us -->
+
+    <!-- Partner -->
+    <div class="container partner mt-3 py-5">
+      <div class="row title">
+        <div class="col text-center">
+          <div class="section-title">
+            <div class="front-text">
+              <h3 class="tagline">our partnership</h3>
+            </div>
+            <span class="back-text">clients</span>
+          </div>
+        </div>
+      </div>
+      <div class="row row-partner mt-4">
+        <div class="container">
+          <section class="logo-carousel slider" data-arrows="true">
+            <div class="slide">
+              <img src="asset/partner/1.png">
+            </div>
+            <div class="slide">
+              <img src="asset/partner/2.jpg" width="150">
+            </div>
+            <div class="slide">
+              <img src="asset/partner/3.png" width="250">
+            </div>
+            <div class="slide">
+              <img src="asset/partner/4.png" width="250">
+            </div>
+            <div class="slide">
+              <img src="asset/partner/5.png" width="100">
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- End Partner -->
+
+  <!-- CONTACT -->
+  <div class="container-fluid contact">
+      <div class="container py-5">
+        <div class="row title">
+          
+          <div class="col text-center pt-5">
+            <div class="section-title">
+              <div class="front-text">
+                <h3 class="tagline">Contact</h3>
+              </div>
+              <span class="back-text">Let's Talk</span>
+            </div>
+          </div>
+        </div>
+        <div class="row caption mt-lg-4">
+          <div class="col-lg-8 col-md-10 offset-lg-2 offset-md-1 pt-lg-3 pb-5">
+            <p class="py-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dignissimos suscipit ad accusantium adipisci amet culpa officia corporis obcaecati deserunt.</p>
+            <a href="html/contact.html" class="btn-contact">Talk Now</a>
+          </div>
+        </div>
+
+      </div>
+  </div>
+  <!-- END CONTACT -->
+
+  </main>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="container container-footer">
+        <div class="row py-5">
+          <div class="col-lg-4 col-md-4">
+            <img src="asset/logo.png" width="128" alt="" />
+            <p class="fs-6 mt-2">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro a repudiandae fugit rerum optio
+              perferendis veniam voluptatibus velit alias ipsam!
+            </p>
+            <div class="social-icons mt-4">
+              <ul>
+                <li>
+                  <a href="http://wa.me/6281219469922" target="blank"><i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="blank"><i
+                      class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="blank"><i
+                      class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="blank"><i
+                      class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:adsainternasional@gmail.com" target="blank"><i class="fa-regular fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-5 offset-lg-1 mt-lg-0 mt-md-0 mt-4">
+            <h3 class="fs-5 mb-3 contact-details">Contact Details</h3>
+            <div class="row">
+              <div class="col-1">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="col">
+                <address>
+                  lorem
+                  <br />
+                  Jl. ABC 1 Sabang sampe Merauke No.18
+                  <br />
+                  Kel. lorem, Kec. Lorem Ipsum.
+                  <br />
+                  Kab. Ipsum, Jawa Barat
+                  <br>
+                  Indonesia
+                </address>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-1">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="col phone">
+                <ul>
+                  <li class="mb-3">
+                    <a href="http://wa.me/6282110125493" target="blank">+62 812-1946-9922</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row mt-1">
+              <div class="col-1">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="col">
+                <a href="mailto:tombispratama@gmail.com" target="blank">tombispratama@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3 mt-lg-0 mt-md-0 mt-4">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                  src="https://maps.google.com/maps?width=300&amp;height=250&amp;hl=en&amp;q=Jalan Meranti 3 No.8, Mangunjaya, Bekasi Regency, West Java, Indonesia&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                  href="https://piratebay-proxys.com/">Piratebay</a>
+              </div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  width: 100%;
+                  height: 250px;
+                }
+
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  width: 100%;
+                  height: 250px;
+                }
+
+                .gmap_iframe {
+                  height: 250px !important;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+
+        <span class="line"></span>
+
+        <div class="row py-3 social-icons">
+          <div class="col-12">
+            <p>© 2023 Tombi Bintang Sejahtera. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Jquery -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- SLICK SLIDER -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!-- BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- AOS (ANIMATION) -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- My Js -->
+  <script type="text/javascript" src="js/js.js"></script>
+</body>
+
+</html>

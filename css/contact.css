@@ -1,0 +1,115 @@
+header.contact{
+   height: 36.8rem !important;
+   background-size: cover;
+}
+
+header.contact .headline .headline-text{
+	color: white;
+   position: relative;
+}
+header.contact .headline .headline-text h3{
+	font-size: 3rem;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+.linkaddress{
+   margin: 7px 0;
+    padding-left: 95px;
+    position: relative;
+}
+.linkaddress:before{
+   position: absolute;
+    content: "";
+    width: 75px;
+    height: 1px;
+    background: #ff5f13;
+   bottom: 45%;
+   left: 0;
+    transform: translateY(-50%);
+}
+.linkaddress ol{
+   list-style: none;
+   display: flex;
+    flex-wrap: wrap;
+    padding: .75rem 1rem .75rem 0;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+.linkaddress ol li a{
+   color: #ff5f13;
+   font-size: 1rem;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+   display: inline-block;
+   padding-right: .5rem;
+   color: #ff5f13;
+   content: "/";
+}
+
+main.contact .contact-header h3{
+   color: #00235b;
+}
+
+main.contact ul{
+	display:flex;
+	list-style: none;
+   
+}
+main.contact a{
+   color: black;
+   font-weight: 500;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+}
+main.contact address{
+   font-weight: 500;
+}
+main.contact a:hover{
+	color: #ff5f13;
+}
+
+main.contact i{
+	font-weight: 900;
+	font-size: 1.2rem;
+	color: #00235b;
+}
+main.contact .links ul{
+	flex-direction: column;
+}
+main.contact .links ul li{
+
+   padding: 5px 0 5px 0;
+}
+main.contact .phone ul{
+	flex-direction: column;
+}
+
+@media(min-width:768px) and (max-width: 1023px) {
+	main.contact .container.contact-header{
+		margin: 0;
+		max-width: 100% !important;
+	}
+}
+
+@media(max-width:767px){
+	
+	header .headline h3{
+		margin-top: 2em;
+		font-size: 2.5rem !important;
+	}
+
+	main.contact .container.contact-header{
+		margin: 0;
+		max-width: 100% !important;
+		
+	}
+	main.contact .container.contact-header p,
+	main.contact .container.contact-header address,
+	main.contact .container.contact-header a{
+		font-size: 1.1rem !important;
+	}
+}
