@@ -57,7 +57,7 @@ time, mark, audio, video {
 /* Header */
 header{
    position: relative;
-   background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)), url("../asset/banner.JPG");
+   background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)),  url("../asset/bcontact.jpg") !important;
 	background-size: cover;
 	background-position: center;
 	height: 56rem;
