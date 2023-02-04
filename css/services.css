@@ -14,7 +14,6 @@ header.services .headline .headline-text h3{
 }
 
 .linkaddress{
-   margin: 7px 0;
     padding-left: 95px;
     position: relative;
 }
@@ -48,6 +47,10 @@ header.services .headline .headline-text h3{
    padding-right: .5rem;
    color: #ff5f13;
    content: "/";
+}
+
+main.services .list-services{
+   justify-content: center !important;
 }
 
 main.services .offers h3{
@@ -110,10 +113,23 @@ main.services .offers p{
    font-size: 1.1em;
 }
 
-@media(min-width:768px) and (max-width: 1023px) {
+main.services .gallery{
+   background-color: #f9f9f9;
+}
 
+@media(min-width:768px) and (max-width: 1023px) {
+	header.services .headline .headline-text h3{
+		font-size: 2.8em !important;
+	}
 }
 
 @media(max-width:767px){
-	
+	header.services .headline .headline-text h3{
+		font-size: 2rem !important;
+	}
+
+   .row.offers{
+    margin: 0 !important;
+
+   }
 }

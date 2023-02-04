@@ -14,7 +14,6 @@ header.contact .headline .headline-text h3{
 }
 
 .linkaddress{
-   margin: 7px 0;
     padding-left: 95px;
     position: relative;
 }
@@ -93,10 +92,16 @@ main.contact .phone ul{
 		margin: 0;
 		max-width: 100% !important;
 	}
+   header.contact .headline .headline-text h3{
+		font-size: 2.8em !important;
+	}
 }
 
 @media(max-width:767px){
-	
+	header.contact .headline .headline-text h3{
+		font-size: 2em !important;
+	}
+
 	header .headline h3{
 		margin-top: 2em;
 		font-size: 2.5rem !important;

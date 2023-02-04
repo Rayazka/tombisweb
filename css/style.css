@@ -60,7 +60,7 @@ header{
    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)),  url("../asset/banner.jpg") !important;
 	background-size: cover !important;
 	background-position: center;
-	height: 56rem;
+	height: 40rem;
 	overflow-x: hidden;
 }
 /* BANNER */
@@ -115,7 +115,7 @@ header nav a.navbar-brand{
 	padding-left: 1rem;
 }
 header nav .brand-logo{
-	width: 5.5rem !important;
+	width: 5.5rem;
 }
 header nav a.nav-link{
 	color: whitesmoke !important;
@@ -175,76 +175,21 @@ header nav .offcanvas.show a.navbar-brand-logo{
 /* HEADLINE */
 header .headline .headline-text{
 	color: white;
-	margin-left: 2em;
-	padding-top: 8em;
 }
-header .headline .headline-text h1{
-	font-size: 8rem;
-	color: #ff5f13;
-	text-transform: uppercase;
+header .headline .headline-text h3{
+	font-size: 4rem;
 }
-header .headline .headline-text .animation-text{
-	position: relative;
-	left: 7em;
-	top: -2.5em;
+header .headline .headline-text .btn{
+	transition: all .3s ease-out;
+	font-size: 1.2rem;
 }
-header .headline .headline-text .animation-text h2{
-	font-size: 8rem;
-	margin: 0;
-	text-transform: uppercase;
-	position: absolute;
-	line-height: 1;
-}
-header .headline .headline-text .animation-text h2:nth-child(1){
-	color: transparent;
-	-webkit-text-stroke: 1px #fff;
-    -webkit-text-fill-color: transparent;
-}
-header .headline .headline-text .animation-text h2:nth-child(2){
-	color: #ff5f13;
-	-webkit-animation: animate 4s ease-in-out infinite;
-   animation: animate 4s ease-in-out infinite;
-}
-
-@keyframes animate {
-   0%,100% {
-       clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 69%, 100% 52%, 100% 100%, 0% 100%)
-   }
-
-   50% {
-       clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%)
-   }
-}
-
-header .headline span{
-	position: relative;
-	color: white;
-	font-size: .95rem;
-	text-transform: uppercase;
-	font-weight: 500;
-	display: block;
-	left: -1.5em;
-}
-header .headline span:nth-child(1){
-	top: 1.5em;
-}
-header .headline .button-headline{
-	margin-top: 5.5em;
-}
-header .headline .button-headline span a{
-	text-decoration: none;
-	color: white;
-	font-weight: 500;
-}
-header .headline span:before{
-	position: absolute;
-	content: "";
-	width:25px;
-	height: 2px;
+header .headline .headline-text .btn:hover{
 	background-color: #ff5f13;
-	left: -30px;
-	top: 50%;
-	transform: translateY(-50%);
+	border-color: #ff5f13;
+	color: white;
+}
+header .headline .headline-text span{
+	color: #ff5f13;
 }
 /* END HEADLINE */
 
@@ -394,6 +339,50 @@ main .feature-card .card i{
 }
 /* END ABOUT US */
 
+/* Gallery */
+.row.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+ }
+ 
+ /* Create four equal columns that sits next to each other */
+ .column.gallery {
+	flex: 25%;
+	max-width: 33.3%;
+	padding: 0 4px;
+ }
+ 
+ .column.gallery img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+	filter: grayscale(1) brightness(0.5);
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s linear;
+ }
+ .column.gallery img:hover {
+	filter: grayscale(0);
+ }
+ @media screen and (max-width: 800px) {
+	.column.gallery {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+	.column.gallery {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+	.column.gallery img {
+	  filter: grayscale(0) brightness(1);
+	}
+ }
+/* End Gallery */
+
 /* Partner */
 .slick-slide {
 	margin: 0px 20px;
@@ -452,7 +441,7 @@ main .contact h3{
 	color: white;
 }
 main .contact p{
-	font-size: 1.1em;
+	font-size: 1.3em;
 	color: whitesmoke;
 	font-weight: 500;
 }
@@ -564,11 +553,8 @@ footer span.line{
 
 	/* NAVBAR */
 	header nav a.navbar-brand{
-		font-size: 1rem;
+		font-size: 1.8rem;
 		padding-left: .5rem;
-	}
-	header nav .brand-logo{
-		width: 5rem !important;
 	}
 	header nav a.nav-link{
 		margin-right: .4rem !important;
@@ -579,25 +565,16 @@ footer span.line{
 	header{
 		height: 45rem;
 	}
-	header .headline .headline-text h1{
-		font-size: 6rem;
+	header .headline .headline-text h3{
+		font-size: 3.5rem;
 	}
-	header .headline .headline-text .animation-text h2{
-		font-size: 4rem;
-		margin-left: .5em;
-	}
+
 	main .back-text{
 		font-size: 5rem;
 		transform: translateY(-110%);
-
 	}
-	header .headline .headline-text .animation-text{
-		position: relative;
-		left: 2em;
-		top: -1.5em;
-	}
-	header .headline .button-headline{
-		margin-top: 3.2em;
+	header .headline .headline-text .btn{
+		font-size: 1.4rem;
 	}
 	
 	/* END HEADLINE */
@@ -625,15 +602,14 @@ footer span.line{
 }
 
 @media(min-width:1280px) and (max-width:1400px){
-	header .headline .headline-text h1{
-		font-size: 8rem;
-	}
-	header .headline .headline-text .animation-text h2{
-		font-size: 6rem;
+	header .headline .headline-text h3{
+		margin-top: 2em !important;
+		font-size: 3.5rem;
 	}
 	main .back-text{
 		font-size: 5rem;
 	}
+	
 }
 
 @media(max-width:767px){
@@ -673,9 +649,9 @@ footer span.line{
 	/* END BANNER */
 
 	/* NAVBAR */
-	header nav a .brand-logo{
-		width: 4rem !important;
-		margin-left: .3em;
+	header nav .brand-logo{
+		width: 4rem;
+		margin-left: 1em;
 	}
 	header nav .navbar-brand{
 		display: none;
@@ -687,27 +663,11 @@ footer span.line{
 	header{
 		height: 35rem;
 	}
-	header .headline .headline-text{
-		padding: 5em 0 0 0;
-	}
-	header .headline .headline-text h1{
-		font-size: 3rem;
-	}
-	header .headline .headline-text .animation-text h2{
+	header .headline .headline-text h3{
 		font-size: 2rem;
-		margin-left: .2em;
 	}
-	header .headline .headline-text .animation-text{
-		position: relative;
-		left: 2em;
-		top: -.75em;
-	}
-	header .headline span{
-		font-size: .8rem;
-	}
-	header .headline .button-headline{
-		margin-top: 1.8em;
-		font-size: .8rem;
+	header .headline .headline-text .btn{
+		font-size: .9rem;
 	}
 	/* END HEADLINE */
 
