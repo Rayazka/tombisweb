@@ -328,7 +328,7 @@ main .feature-card .card{
 	transition: all .2s linear;
 	color: white;
 }
-main .feature-card .card p{
+main .feature-card .card .card-title{
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 1.2rem;
@@ -364,6 +364,7 @@ main .feature-card .card i{
  }
  .column.gallery img:hover {
 	filter: grayscale(0);
+	cursor: default;
  }
  @media screen and (max-width: 800px) {
 	.column.gallery {
