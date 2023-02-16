@@ -28,10 +28,6 @@ $(window).scroll(function(){
       toTopBtn.classList.remove('show')
    }
 });
-toTopBtn.addEventListener('click', function(e){
-   e.preventDefault()
-   $('html, body').animate({scrollTop:0}, '300')
-})
 });
 
 AOS.init({

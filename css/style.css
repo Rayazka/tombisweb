@@ -25,12 +25,12 @@ time, mark, audio, video {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
 
 #backToTopBtn{
-   background-color:#ff5f13;
+   background-color:#25D366;
    display:inline-block;
-   width: 55px;
-   height: 55px;
+   width: 40px;
+   height: 40px;
    border-radius: 50%;
-   line-height: 65px;
+   line-height: 45px;
    text-align: center;
    position: fixed;
    bottom: 50px;
@@ -42,13 +42,13 @@ time, mark, audio, video {
 }
 #backToTopBtn i{
       color: whitesmoke;
-      font-size: 2rem;
+      font-size: 1.5rem;
 }
 #backToTopBtn:hover{
    background-color:#191a33;
 }
 #backToTopBtn:hover i{
-	color: #ff5f13;
+	color: #fff;
 }
 #backToTopBtn.show{
    opacity: 1;
@@ -289,6 +289,10 @@ main .service-desc a{
 	font-weight: 600;
 	transition: all 0.3s linear;
 
+}
+main .service-desc .title{
+	font-size: 1.5rem;
+		 text-transform: uppercase;
 }
 main .service-desc a.button{
 	color: #333;
