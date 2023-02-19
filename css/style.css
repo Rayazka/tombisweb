@@ -57,9 +57,9 @@ time, mark, audio, video {
 /* Header */
 header{
    position: relative;
-   background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)),  url("../asset/banner.jpg") !important;
+   background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)),  url("../asset/header1.jpg") !important;
 	background-size: cover !important;
-	background-position: center;
+	background-position: 0 -200px !important;
 	height: 40rem;
 	overflow-x: hidden;
 }
@@ -541,6 +541,10 @@ footer span.line{
 
 /* RESPONSIVE */
 @media(min-width:768px) and (max-width: 1023px) {
+	header{
+		background-position: center !important;
+	}
+
 	/* BANNER */
 	header .header-banner{
 		font-size: .8rem !important;
@@ -602,6 +606,10 @@ footer span.line{
 }
 
 @media(min-width:1280px) and (max-width:1400px){
+	header{
+		background-position: center !important;
+	}
+
 	header .headline .headline-text h3{
 		margin-top: 2em !important;
 		font-size: 3.5rem;
@@ -613,7 +621,9 @@ footer span.line{
 }
 
 @media(max-width:767px){
-
+	header{
+		background-position: center !important;
+	}
 	#backToTopBtn{
 		width: 40px;
 		height: 40px;
