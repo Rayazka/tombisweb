@@ -27,10 +27,10 @@ time, mark, audio, video {
 #backToTopBtn{
    background-color:#25D366;
    display:inline-block;
-   width: 55px;
-   height: 55px;
+   width: 65px;
+   height: 65px;
    border-radius: 50%;
-   line-height: 65px;
+   line-height: 80px;
    text-align: center;
    position: fixed;
    bottom: 50px;
@@ -42,7 +42,7 @@ time, mark, audio, video {
 }
 #backToTopBtn i{
       color: whitesmoke;
-      font-size: 2rem;
+      font-size: 2.5rem;
 }
 .fab{
 	line-height: 0 !important;
@@ -78,7 +78,6 @@ header .header-banner .col-banner span{
 }
 header .header-banner .col-banner{
    display: flex;
-   justify-content: flex-end;
 }
 header .header-banner ul{
    display: flex;
@@ -664,10 +663,13 @@ footer span.line{
 	/* NAVBAR */
 	header nav .brand-logo{
 		width: 4rem;
-		margin-left: 1em;
+		margin-right: 1em;
 	}
 	header nav .navbar-brand{
 		display: none;
+	}
+	button.navbar-toggler{
+		margin-left: .5em;
 	}
 	/* END NAVBAR */
 
@@ -708,9 +710,6 @@ footer span.line{
 		width: 100%;
 		height: 100px;
 	}
-
-
-
 	/* END MAIN */
 
 
