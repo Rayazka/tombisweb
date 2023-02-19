@@ -87,6 +87,7 @@ main.contact .phone ul{
 	flex-direction: column;
 }
 
+
 @media(min-width:768px) and (max-width: 1023px) {
 	main.contact .container.contact-header{
 		margin: 0;
