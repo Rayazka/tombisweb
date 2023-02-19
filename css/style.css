@@ -27,10 +27,10 @@ time, mark, audio, video {
 #backToTopBtn{
    background-color:#25D366;
    display:inline-block;
-   width: 40px;
-   height: 40px;
+   width: 55px;
+   height: 55px;
    border-radius: 50%;
-   line-height: 45px;
+   line-height: 65px;
    text-align: center;
    position: fixed;
    bottom: 50px;
@@ -42,7 +42,10 @@ time, mark, audio, video {
 }
 #backToTopBtn i{
       color: whitesmoke;
-      font-size: 1.5rem;
+      font-size: 2rem;
+}
+.fab{
+	line-height: 0 !important;
 }
 #backToTopBtn:hover{
    background-color:#191a33;
