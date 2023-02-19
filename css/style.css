@@ -75,7 +75,7 @@ header .header-banner .col-banner span{
 }
 header .header-banner .col-banner{
    display: flex;
-   justify-content: space-between;
+   justify-content: flex-end;
 }
 header .header-banner ul{
    display: flex;
@@ -91,6 +91,9 @@ header .header-banner ul li a{
 	transition: all .2s ease-in;
 	margin-right: .7em;
    font-size: 0.875rem;
+}
+header .header-banner ul li a:last-child{
+	margin-right: 0;
 }
 header .header-banner ul li a:hover{
 	color: #ff5f13;
@@ -263,32 +266,24 @@ main .services .carousel-inner .caption{
 main .services .col-card{
 	border-radius: 1px;
 	padding: 0;
-	background-color: #efefef;
 }
 main .col-card,
 main .col-card img{
 	transition: all 0.3s linear;
 }
-main .col-card:hover{
-	box-shadow: 0 0 15px 5px rgb(0 0 0 / 30%);
-	background-color: #00235b	;
-}
 main .col-card:hover img{
 	filter: brightness(70%)
 }
-main .col-card:hover a{
-	color: #fff;
-}
-main .col-card:hover a.button{
-	color: #ff5f13;
-}
-main .service-desc a{
+main .service-desc .col.title a{
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
 	text-decoration: none;
 	color: #191a33;
-	font-size: 1.3rem !important;
 	font-weight: 600;
 	transition: all 0.3s linear;
-
+	letter-spacing: 1px;
+	text-align: center;
 }
 main .service-desc .title{
 	font-size: 1.5rem;
